@@ -35,9 +35,9 @@ export const IndexUI = ({ logic }: IndexUIProps) => {
     >
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-background via-muted/30 to-background py-20 overflow-hidden">
-        <div className="absolute inset-0 opacity-30">
+        <div className="absolute inset-0 opacity-40">
           <img 
-            src="https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/product-images/7573ee34-e5f9-4b50-99b8-9501a490e6fc/hero-playeras.jpg" 
+            src="https://ptgmltivisbtvmoxwnhd.supabase.co/storage/v1/object/public/product-images/7573ee34-e5f9-4b50-99b8-9501a490e6fc/hero-playeras-collection.jpg" 
             alt="Hero background"
             className="w-full h-full object-cover"
           />
