@@ -6,7 +6,7 @@ export const BrandLogoLeft = () => {
 
   if (!logos) {
     return (
-      <h1 className="text-xl font-bold text-black ml-2">OnlineStore</h1>
+      <h1 className="text-2xl font-bold text-foreground">StyleShirt</h1>
     )
   }
 
@@ -14,16 +14,16 @@ export const BrandLogoLeft = () => {
 
   if (!mainLogoUrl) {
     return (
-      <h1 className="text-xl font-bold text-black ml-2">OnlineStore</h1>
+      <h1 className="text-2xl font-bold text-foreground">StyleShirt</h1>
     )
   }
 
   return (
-    <a href="/" aria-label="Home" className="ml-2">
+    <a href="/" aria-label="Home">
       <img 
         src={mainLogoUrl} 
         alt="Main logo"
-        className="h-8 w-auto object-contain" 
+        className="h-10 w-auto object-contain" 
       />
     </a>
   )
